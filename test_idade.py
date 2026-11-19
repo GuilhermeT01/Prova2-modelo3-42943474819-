@@ -8,3 +8,6 @@ def test_t2_idade_limite_menos_um():
 
 def test_t3_idade_101():
     assert idade_permitida(101) is False
+
+def test_t4_idade_decimal():
+    assert idade_permitida(21.5) is False
